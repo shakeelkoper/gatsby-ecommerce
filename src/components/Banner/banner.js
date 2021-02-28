@@ -13,13 +13,13 @@ export default function Banner() {
                 <div className={bannerStyles.subTitle}>What's your concern?</div>
                 <ol className={`d-flex justify-content-between ${bannerStyles.productDisplay}`}>
                     <li>
-                        <img src={Hair} />
+                        <img src={Hair} alt="Hair Product" />
                     </li>
                     <li>
-                        <img src={Skin}/>
+                        <img src={Skin} alt="Skin Product"/>
                     </li>
                     <li>
-                        <img src={Weight}/>
+                        <img src={Weight} alt="Weight Product"/>
                     </li>
                 </ol>
             </div>

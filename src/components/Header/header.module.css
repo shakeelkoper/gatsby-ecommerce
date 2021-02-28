@@ -5,6 +5,7 @@
     left: 0;
     top: 0;
     right: 0;
+    z-index: 999;
 }
 .innerHeader{
     width: 1140px;

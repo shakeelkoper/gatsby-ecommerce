@@ -22,16 +22,16 @@ export default function Header() {
                 </ol>
                 <div className={`d-flex justify-content-between ${headerStyles.actionBar}`}>
                     <div className="search-icon">
-                        <img src={SearchIcon}/>
+                        <img src={SearchIcon} alt="Search Icon"/>
                     </div>
                     <div className="whatsapp">
-                        <img src={WhatsappIcon}/>
+                        <img src={WhatsappIcon} alt="WhatsApp Number"/>
                     </div>
                     <div className="profile">
-                        <img src={Profile}/>
+                        <img src={Profile} alt="Profile Icon"/>
                     </div>
                     <div className="cart">
-                        <img src={CartIcon}/>
+                        <img src={CartIcon} alt="Cart Icon"/>
                     </div>
                 </div>
             </div>
