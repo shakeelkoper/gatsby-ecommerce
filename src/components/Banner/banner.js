@@ -11,7 +11,7 @@ export default function Banner() {
                 <h1>Women's Wellness Simplified</h1>
                 <p>We are the country’s first holistic wellness platform for men. We talk to men, listen to them and understand their needs</p>
                 <div className={bannerStyles.subTitle}>What's your concern?</div>
-                <ol className="productDisplay">
+                <ol className={`d-flex justify-content-between ${bannerStyles.productDisplay}`}>
                     <li>
                         <img src={Hair} />
                     </li>
