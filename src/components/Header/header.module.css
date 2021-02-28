@@ -1,0 +1,29 @@
+.header{
+    height: 60px;
+    background-color: #000;
+}
+
+.innerHeader{
+    width: 1140px;
+}
+
+.innerHeader > *{
+    cursor: pointer;
+}
+
+.headerLinks{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.headerLinks li{
+    display: inline-block;
+    padding-right: 32px;
+    color:#fff;
+}
+.actionBar{
+    width: 168px;
+}
+.actionBar div{
+    display: inline-block;
+}
