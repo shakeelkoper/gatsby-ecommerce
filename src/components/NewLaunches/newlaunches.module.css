@@ -12,3 +12,6 @@
     border-radius: 36px;
     background-color: #000;
 }
+.tabPane .slick-dots{
+    text-align: left;
+}

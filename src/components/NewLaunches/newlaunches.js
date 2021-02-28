@@ -27,7 +27,8 @@ export default function NewLaunches() {
                 </li>
             </ul>
             <div className="tab-content mx-auto" id="pills-tabContent">
-                <div className="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                {/* role="tabpanel" aria-labelledby="pills-home-tab" */}
+                <div className={`tab-pane fade show active ${NewLaunchesStyles.tabPane}`} id="pills-home">
                     <Slider {...settings}>
                         <ProductItem />
                         <ProductItem />
@@ -38,7 +39,8 @@ export default function NewLaunches() {
                         <ProductItem />
                     </Slider>
                 </div>
-                <div className="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                {/* role="tabpanel" aria-labelledby="pills-profile-tab" */}
+                <div className={`tab-pane fade ${NewLaunchesStyles.tabPane}`} id="pills-profile">
                     <Slider {...settings}>
                         <ProductItem />
                         <ProductItem />
@@ -49,7 +51,8 @@ export default function NewLaunches() {
                         <ProductItem />
                     </Slider>
                 </div>
-                <div className="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                {/* role="tabpanel" aria-labelledby="pills-contact-tab" */}
+                <div className={`tab-pane fade ${NewLaunchesStyles.tabPane}`} id="pills-contact">
                     <Slider {...settings}>
                         <ProductItem />
                         <ProductItem />
