@@ -6,7 +6,7 @@ import Weight from "../../images/weight.jpg"
 
 export default function Banner() {
     return (
-        <div class={`d-flex align-items-center justify-content-center ${bannerStyles.bannerImage}`}>
+        <div class={`d-flex align-items-center justify-content-center full-width ${bannerStyles.bannerImage}`}>
             <div class={`d-flex align-items-center flex-column text-center ${bannerStyles.bannerText}`}>
                 <h1>Women's Wellness Simplified</h1>
                 <p>We are the country’s first holistic wellness platform for men. We talk to men, listen to them and understand their needs</p>

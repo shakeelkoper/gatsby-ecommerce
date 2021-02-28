@@ -8,10 +8,10 @@
 .container > div{
     width: 1122px;
 }
-.navItem > .active{
+.navItem > :global(.active){
     border-radius: 36px;
     background-color: #000;
 }
-.tabPane .slick-dots{
+.tabPane :global(.slick-dots){
     text-align: left;
 }
