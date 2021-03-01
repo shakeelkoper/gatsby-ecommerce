@@ -1,5 +1,9 @@
 .container{
     padding: 32px;
+    padding-bottom: 111px;
+}
+.heading{
+    padding-bottom: 24px;
 }
 .container > ul{
     background-color: #F6F6F6;
@@ -10,16 +14,17 @@
 }
 .navItem > :global(.active){
     border-radius: 36px;
-    background-color: #000;
+    background-color: #000 !important;
 }
 .tabPane{
     position: relative;
 }
 .tabPane :global(.slick-dots){
     text-align: left;
+    bottom: -45px;
 }
 .tabPane :global(.slick-prev), .tabPane :global(.slick-next){
-    bottom: -30px;
+    bottom: -55px;
     top: auto;
     left: auto;
     right: 0;

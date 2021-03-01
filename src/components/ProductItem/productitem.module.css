@@ -16,14 +16,57 @@
     background-color: #F6F6F6;
     min-height: 24px;
 }
+.forWidth > span{
+    display: inline-block;
+    height: 24px;
+    padding: 0 16px;
+    border-left: 1px solid #E6EAEA;
+}
 .forWidth > span:first-child{
     font-size: 14px;
     font-weight: 700;
     line-height: 16.3px;
+    padding: 0 16px;
+    border-left: none;
 }
-.forWidth > ul{
+.forWidth > span{
     display: inline-block;
 }
-.forWidth > ul > li{
+.forWidth > span{
     display: inline-block;
+    padding-left: 16px;
+    border-left: 1px solid #E6EAEA;
+}
+.btnGroup{
+    width: 100%;
+}
+.btnGroup > button{
+    width: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    border: 0;
+    height: 40px;
+}
+.btnGroup > button:first-child{
+    background-color: #EEE;
+    color: #000;
+}
+.btnGroup > button:last-child{
+    background-color: #000;
+    color: #FFF;
+}
+.productPrice{
+    padding: 15px 0;
+    padding-left: 16px;
+}
+.oldPrice{
+    font-size: 12px;
+    color:#828282;
+    font-weight: 500;
+    padding-left: 8px;
+    text-decoration: line-through;
+} 
+.discount{
+    padding-left: 16px;
 }

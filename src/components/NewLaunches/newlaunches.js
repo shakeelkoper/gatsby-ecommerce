@@ -13,7 +13,7 @@ export default function NewLaunches() {
     };
     return (
         <section className={`text-center ${NewLaunchesStyles.container}`}>
-            <h2>New Launches</h2>
+            <h2 className={`${NewLaunchesStyles.heading}`}>New Launches</h2>
             {/* role="tablist" */}
             <ul class="nav nav-pills mb-3 col-3 mx-auto d-flex justify-content-between" id="pills-tab">
                 <li className={`nav-item ${NewLaunchesStyles.navItem}`} role="presentation">

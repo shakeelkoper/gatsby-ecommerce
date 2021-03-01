@@ -16,20 +16,18 @@ export default function ProductItem() {
                 </div>
                 <div className={`${ProductItemStyles.forWidth}`}>
                     <span className="title">With</span>
-                    <ul>
-                        <li>Keratin</li>
-                        <li>Biotin</li>
-                        <li>Niacinamide</li>
-                        <li>Vitamin B5</li>
-                    </ul>
+                    <span>Keratin</span>
+                    <span>Biotin</span>
+                    <span>Niacinamide</span>
+                    <span>Vitamin B5</span>
                 </div>
             </div>
-            <div>
+            <div className={`${ProductItemStyles.productPrice}`}>
                 <span>Rs 3999</span>
-                <span>&#8377; 1194</span>
-                <span>17% OFF</span>
+                <span className={`${ProductItemStyles.oldPrice}`}>&#8377; 1194</span>
+                <span className={`${ProductItemStyles.discount}`}>🎉 17% OFF</span>
             </div>
-            <div class="btn-group" role="group" aria-label="Basic example">
+            <div className={`btn-group ${ProductItemStyles.btnGroup}`} role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-primary">Add to Cart</button>
                 <button type="button" class="btn btn-primary">Buy Now</button>
             </div>
