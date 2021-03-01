@@ -4,6 +4,7 @@
     background-image: url(../../images/bannerImg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-top: 60px;
 }
 .bannerText{
     width: 730px;

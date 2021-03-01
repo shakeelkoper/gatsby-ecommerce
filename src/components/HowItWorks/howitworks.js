@@ -4,7 +4,7 @@ import HowItWorksImg from "../../images/howitworks.jpg"
 
 export default function HowItWorks() {
     return (
-        <div className={`text-center ${HowItWorksStyles.container}`}>
+        <div className={`text-center container ${HowItWorksStyles.container}`}>
             <h2>How It Works</h2>
             <div className={`row ${HowItWorksStyles.innerContainer}`}>
                 <div className="col-xl-6">

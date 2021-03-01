@@ -4,18 +4,18 @@ import ProductImg from "../../images/productImg.jpg"
 
 export default function ProductItem() {
     return (
-        <div className={ProductItemStyles.itemContainer}>
+        <div className={`text-start ${ProductItemStyles.itemContainer}`}>
             <figure>
                 <img src={ProductImg} alt="deep moisturising conditioner" />
                 <figcaption>Hair fall Control Shampoo</figcaption>
             </figure>
-            <div>
-                <div>
-                    <span>For</span>
+            <div className={`${ProductItemStyles.details}`}>
+                <div className={`${ProductItemStyles.forWidth}`}>
+                    <span className="title">For</span>
                     <span>Hair fall reduction</span>
                 </div>
-                <div>
-                    <span>With</span>
+                <div className={`${ProductItemStyles.forWidth}`}>
+                    <span className="title">With</span>
                     <ul>
                         <li>Keratin</li>
                         <li>Biotin</li>

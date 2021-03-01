@@ -12,6 +12,31 @@
     border-radius: 36px;
     background-color: #000;
 }
+.tabPane{
+    position: relative;
+}
 .tabPane :global(.slick-dots){
     text-align: left;
+}
+.tabPane :global(.slick-prev), .tabPane :global(.slick-next){
+    bottom: -30px;
+    top: auto;
+    left: auto;
+    right: 0;
+    background-color: transparent;
+    z-index: 999;
+}
+.tabPane :global(.slick-prev)::before, .tabPane :global(.slick-next)::before{
+    background-image: url("../../images/arrows.svg");
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+    background-size: 10px 20px;
+}
+.tabPane :global(.slick-prev){
+    right: 30px;
+}
+.tabPane :global(.slick-prev)::before{
+    transform: rotate(180deg);
 }
