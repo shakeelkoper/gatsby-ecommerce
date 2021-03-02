@@ -1,5 +1,5 @@
 import React from "react";
-import NewLaunchesStyles from "./newLaunches.module.css"
+import NewLaunchesStyles from "./newlaunches.module.css"
 import ProductItem from "../ProductItem/productitem"
 import Slider from "react-slick";
 
