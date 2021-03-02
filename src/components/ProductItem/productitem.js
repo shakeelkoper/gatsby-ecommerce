@@ -25,7 +25,7 @@ export default function ProductItem() {
             <div className={`${ProductItemStyles.productPrice}`}>
                 <span>Rs 3999</span>
                 <span className={`${ProductItemStyles.oldPrice}`}>&#8377; 1194</span>
-                <span className={`${ProductItemStyles.discount}`}>🎉 17% OFF</span>
+                <span className={`${ProductItemStyles.discount}`}><span role="img" aria-labelledby="discount">&#127881;</span> 17% OFF</span>
             </div>
             <div className={`btn-group ${ProductItemStyles.btnGroup}`} role="group" aria-label="Basic example">
                 <button type="button" class="btn btn-primary">Add to Cart</button>
