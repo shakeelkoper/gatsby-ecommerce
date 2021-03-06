@@ -18,6 +18,7 @@ export default function NewLaunches() {
       <ul
         className="nav nav-pills mb-3 col-lg-4 col-sm-6 col-12 mx-auto d-flex justify-content-between"
         id="pills-tab"
+        role="tablist"
       >
         <li
           className={`nav-item ${NewLaunchesStyles.navItem}`}
@@ -72,10 +73,11 @@ export default function NewLaunches() {
         </li>
       </ul>
       <div className="tab-content mx-auto" id="pills-tabContent">
-        {/* role="tabpanel" aria-labelledby="pills-home-tab" */}
         <div
           className={`tab-pane fade show active ${NewLaunchesStyles.tabPane}`}
           id="pills-home"
+          role="tabpanel"
+          aria-label="pills-home-tab"
         >
           <Slider {...settings}>
             <ProductItem />
@@ -87,10 +89,11 @@ export default function NewLaunches() {
             <ProductItem />
           </Slider>
         </div>
-        {/* role="tabpanel" aria-labelledby="pills-profile-tab" */}
         <div
           className={`tab-pane fade ${NewLaunchesStyles.tabPane}`}
           id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
         >
           <Slider {...settings}>
             <ProductItem />
@@ -102,10 +105,11 @@ export default function NewLaunches() {
             <ProductItem />
           </Slider>
         </div>
-        {/* role="tabpanel" aria-labelledby="pills-contact-tab" */}
         <div
           className={`tab-pane fade ${NewLaunchesStyles.tabPane}`}
           id="pills-contact"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
         >
           <Slider {...settings}>
             <ProductItem />
