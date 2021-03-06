@@ -7,21 +7,31 @@ import Container from "../components/container"
 import HowItWorks from "../components/HowItWorks/howitworks"
 import Helmet from "react-helmet"
 
-
 export default function Home() {
   return (
     <Container>
       <Helmet>
-          <meta charSet="utf-8" />
-          <title>BeBodywise</title>
-          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        </Helmet>
-      <Header/>
+        <meta charSet="utf-8" />
+        <title>BeBodywise</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.gstatic.com"></link>
+        <link
+          href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&family=Roboto+Slab:wght@700&display=swap"
+          rel="stylesheet"
+        ></link>
+        <link
+          rel="stylesheet"
+          href="//cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css"
+        ></link>
+      </Helmet>
+      <Header />
       <Banner />
-      <GetStarted/>
-      <NewLaunches />
-      <GetStarted/>
-      <HowItWorks />
+      <main className="">
+        <GetStarted />
+        <NewLaunches />
+        <GetStarted />
+        <HowItWorks />
+      </main>
     </Container>
   )
 }

@@ -3,23 +3,52 @@ body {
   background-color: #fff;
   margin: 0;
   padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+:root {
+  --h1FontSize: 44px;
+  --h2FontSize: 36px;
+  --headingSmall: 24px;
+  --h3FontSize: 20px;
+  --h1h2TextFontSize: 18px;
+  --h3TextFontSize: 16px;
+  --bodyFontSize: 14px;
+  --noteFontSize: 12px;
+}
+h1 {
+  font-family: "Roboto Slab", serif;
 }
 h2 {
   margin: 0;
-  font-size: 36px;
+  font-size: var(--h2FontSize);
   line-height: 44px;
   font-weight: 700;
-  font-family: serif;
+  font-family: "Roboto Slab", serif;
 }
 h3 {
   margin: 0;
   font-weight: 800;
-  font-size: 20px;
+  font-size: var(--h3FontSize);
   line-height: 28px;
+}
+p {
+  margin: 0;
 }
 ol,
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+@media only screen and (max-width: 991px) {
+  :root {
+    --h1FontSize: 28px;
+    --h2FontSize: 28px;
+    --headingSmall: 20px;
+    --h3FontSize: 16px;
+    --h1h2TextFontSize: 14px;
+    --h3TextFontSize: 14px;
+    --bodyFontSize: 14px;
+    --noteFontSize: 12px;
+  }
 }

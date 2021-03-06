@@ -4,9 +4,9 @@
 .innerContainer {
   padding-top: 56px;
 }
-.steps > div{
-    padding:16px;
-    margin-bottom: 24px;
+.steps > div {
+  padding: 16px;
+  margin-bottom: 24px;
 }
 .steps > div:nth-child(2) {
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
@@ -14,8 +14,12 @@
 }
 .content {
   font-weight: normal;
-  font-size: 16px;
+  font-size: var(--h3TextFontSize);
   line-height: 24px;
-  margin: 0;
   padding-top: 8px;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 40px 16px;
+  }
 }

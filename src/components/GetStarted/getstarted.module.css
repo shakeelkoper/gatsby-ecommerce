@@ -1,11 +1,20 @@
-.container{
-    background-color: #F6F6F6;
-    padding: 32px;
+.container {
+  background-color: #f6f6f6;
+  padding: 32px;
 }
-.container button, .container button:hover{
-    height: 56px;
-    margin-top: 36px;
-    border-radius: 0;
-    background-color: #000;
-    border: 0
+.container button,
+.container button:hover {
+  height: 56px;
+  margin-top: 36px;
+  border-radius: 0;
+  background-color: #000;
+  border: 0;
+}
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 40px 16px;
+  }
+  .subContent {
+    padding-top: 12px;
+  }
 }
