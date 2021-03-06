@@ -22,4 +22,7 @@
   .container {
     padding: 40px 16px;
   }
+  .innerContainer {
+    padding-top: 24px;
+  }
 }

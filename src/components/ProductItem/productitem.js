@@ -42,7 +42,7 @@ export default function ProductItem() {
         <span>Rs 3999</span>
         <span className={`${ProductItemStyles.oldPrice}`}>&#8377; 1194</span>
         <span className={`${ProductItemStyles.discount}`}>
-          <span role="img" aria-labelledby="discount">
+          <span role="img" aria-label="discount">
             &#127881;
           </span>{" "}
           17% OFF
